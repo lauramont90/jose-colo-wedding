@@ -29,7 +29,6 @@ updateCountdown();
 const botonWhatsapp = document.getElementById("botonWhatsapp");
 const botonGoogleMaps = document.getElementById("botonGoogleMaps");
 const botonSpotify = document.getElementById("botonSpotify");
-const botonWhatsappMenu = document.getElementById("botonWhatsappMenu");
 
 // Agrega un manejador de eventos al botón
 botonWhatsapp.addEventListener("click", function() {
@@ -47,12 +46,4 @@ botonGoogleMaps.addEventListener("click", function() {
 botonSpotify.addEventListener("click", function() {
     // Abre la URL de la lista de reproducción en una nueva pestaña
     window.open("https://open.spotify.com/playlist/6yaIQyEIfGu3qQXerKWRk1?si=TIaKjqdERYeECoYRq6jyag&utm_source=whatsapp");
-});
-// Agrega un manejador de eventos al botón
-botonWhatsappMenu.addEventListener("click", function() {
-    // URL de WhatsApp que deseas abrir
-    const urlWhatsappMenu = "https://wa.me/+?text=Tengo%20una%20condición%20con%20el%20menú";
-
-    // Redirige a la URL de WhatsApp
-    window.open(urlWhatsappMenu, "_blank");
 });
