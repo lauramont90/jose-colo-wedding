@@ -51,7 +51,7 @@ botonSpotify.addEventListener("click", function() {
 // Agrega un manejador de eventos al botón
 botonWhatsappMenu.addEventListener("click", function() {
     // URL de WhatsApp que deseas abrir
-    const urlWhatsappMenu = "https://wa.me/+541124683994?text=Tengo%20una%20condición%20con%20el%20menú";
+    const urlWhatsappMenu = "https://wa.me/+?text=Tengo%20una%20condición%20con%20el%20menú";
 
     // Redirige a la URL de WhatsApp
     window.open(urlWhatsappMenu, "_blank");
