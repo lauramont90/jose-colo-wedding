@@ -1,5 +1,5 @@
 // Fecha objetivo (24 de noviembre)
-const targetDate = new Date('2023-11-24 21:00:00').getTime();
+const targetDate = new Date('2023-12-22 20:00:00').getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
@@ -34,19 +34,19 @@ const botonWhatsappMenu = document.getElementById("botonWhatsappMenu");
 // Agrega un manejador de eventos al botón
 botonWhatsapp.addEventListener("click", function() {
     // URL de WhatsApp que deseas abrir
-    const urlWhatsapp = "https://wa.me/+541124683994?text=Mi%20nombre%20y%20apellido%20es...%20Gracias%20por%20la%20invitación";
+    const urlWhatsapp = "https://wa.me/+541134720959?text=Gracias%20por%20la%20invitación%20Mi%20nombre%20y%20apellido%20es...";
 
     // Redirige a la URL de WhatsApp
     window.open(urlWhatsapp, "_blank");
 });
 // Agrega un manejador de eventos al botón de Google Maps
 botonGoogleMaps.addEventListener("click", function() {
-    const urlGoogleMaps = "https://maps.app.goo.gl/RUQuJaD7oojoVfWX6";
+    const urlGoogleMaps = "https://maps.app.goo.gl/jefK9ca36A1jwJwTA";
     window.open(urlGoogleMaps, "_blank");
 });
 botonSpotify.addEventListener("click", function() {
     // Abre la URL de la lista de reproducción en una nueva pestaña
-    window.open("https://spotify.link/L1ENKQXv5Db");
+    window.open("https://open.spotify.com/playlist/6yaIQyEIfGu3qQXerKWRk1?si=TIaKjqdERYeECoYRq6jyag&utm_source=whatsapp");
 });
 // Agrega un manejador de eventos al botón
 botonWhatsappMenu.addEventListener("click", function() {

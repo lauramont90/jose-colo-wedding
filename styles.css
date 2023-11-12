@@ -1,12 +1,17 @@
 @font-face {
+    font-family: 'MiFuentePersonalizada2';
+    src: url('GreatVibes-Regular.ttf') format('truetype');
+    /* Otras propiedades de la fuente, como weight y style */
+}
+@font-face {
     font-family: 'MiFuentePersonalizada';
-    src: url('mifuentedos.ttf') format('truetype');
+    src: url('Lost-Emerald.otf') format('truetype');
     /* Otras propiedades de la fuente, como weight y style */
 }
 body {
-    font-family: 'MiFuentePersonalizada', sans-serif;
+    font-family: 'MiFuentePersonalizada2', sans-serif;
     max-width: 100%;
-    background-color: #fff8f0;
+    background: #ecebd7;
 }
 
 /* Otras reglas CSS que utilicen la fuente personalizada */
@@ -14,22 +19,35 @@ body {
 h1 {
     font-size: 6rem; /* 96px */
     font-weight: 400;
-    color: #82815B;
+    color: #919b71;
     text-align: center;
     line-height: 0.5;
     margin-top: 4rem;
+    font-family: 'MiFuentePersonalizada2';
 }
 .flex{
    display: flex;
    justify-content: center;
    align-items:center;
 }
+h2 {
+    font-size: 6rem; /* 96px */
+    font-weight: 400;
+    color: #919b71;
+    text-align: center;
+    line-height: 0.5;
+    margin-top: 4rem;
+  
+
+
+}
 p, span {
     font-size: 2.25rem/* 36px */;
     line-height: 1rem/* 40px */;
-    color: #82815B;
+    color: #919b71;
     font-weight: 400;
     text-align: center;
+    font-family: 'MiFuentePersonalizada2';
 
 
 }
@@ -52,26 +70,26 @@ span {
     font-size: 3.50rem/* 60px */;
 }
 button{
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     border-radius: 0.75rem/* 12px */;
     font-weight: 400;
     margin-top: 2rem/* 32px */;
     font-size: 2.25rem/* 36px */;
     line-height: 2.5rem/* 40px */;
-    background-color: #fff8f0;
+    background-color: #ecebd7;
     text-align: center;
-    width: 25%;
+    width: 30%;
     padding-top: 0.75rem/* 12px */;
     padding-bottom: 0.75rem/* 12px */;
-    font-family: 'MiFuentePersonalizada', sans-serif;
-    color: #82815B;
+    font-family: 'MiFuentePersonalizada2', sans-serif;
+    color: #919b71;
     margin-bottom: 60px;
 
 } 
 button:hover{
-    background-color: #82815B;
-    color: #fff8f0;
+    background-color: #919b71;
+    color:#ecebd7;
 }
 iframe{
     margin-bottom: 8rem;
@@ -86,6 +104,14 @@ iframe{
 .title {
     margin-top: 9rem;
 }
+.space-img {
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
 
 /******************* RESPONSIVE *******************/
 
@@ -109,7 +135,7 @@ iframe{
     p{
         font-size: 1.5rem/* 36px */;
         line-height: 0.5rem/* 40px */;
-        color: #82815B;
+        color: #000000;
         font-weight: 400;
         text-align: center;   
     }
@@ -210,6 +236,7 @@ iframe{
     body {
         overflow-x: hidden;
     }
+
 }
 @media (max-width: 768px) {
     button {
