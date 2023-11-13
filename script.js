@@ -29,11 +29,13 @@ updateCountdown();
 const botonWhatsapp = document.getElementById("botonWhatsapp");
 const botonGoogleMaps = document.getElementById("botonGoogleMaps");
 const botonSpotify = document.getElementById("botonSpotify");
+const botonAlias = document.getElementById("botonSpotify");
+
 
 // Agrega un manejador de eventos al botón
 botonWhatsapp.addEventListener("click", function() {
     // URL de WhatsApp que deseas abrir
-    const urlWhatsapp = "https://wa.me/+541134720959?text=Gracias%20por%20la%20invitación%20Mi%20nombre%20y%20apellido%20es...";
+    const urlWhatsapp = "https://wa.me/+541134720959?text=¡Gracias%20por%20la%20invitación!%20Mi%20nombre%20y%20apellido%20es...";
 
     // Redirige a la URL de WhatsApp
     window.open(urlWhatsapp, "_blank");
@@ -46,4 +48,8 @@ botonGoogleMaps.addEventListener("click", function() {
 botonSpotify.addEventListener("click", function() {
     // Abre la URL de la lista de reproducción en una nueva pestaña
     window.open("https://open.spotify.com/playlist/6yaIQyEIfGu3qQXerKWRk1?si=TIaKjqdERYeECoYRq6jyag&utm_source=whatsapp");
+});
+document.getElementById("botonAlias").addEventListener("click", function() {
+    // Abre la URL de la lista de reproducción en una nueva pestaña
+    window.open("alias.html", "_blank");
 });

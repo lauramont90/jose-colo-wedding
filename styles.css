@@ -111,6 +111,12 @@ iframe{
     align-items: center;
     padding: 15px;
 }
+.pos{
+    position: absolute;
+}
+.rel{
+    position: relative;
+}
 
 
 /******************* RESPONSIVE *******************/
@@ -133,14 +139,14 @@ iframe{
         justify-content: center;
     }
     p{
-        font-size: 1.5rem/* 36px */;
+        font-size: 1.90rem/* 36px */;
         line-height: 0.5rem/* 40px */;
-        color: #000000;
+        color: #919b71;
         font-weight: 400;
         text-align: center;   
     }
     span{
-        font-size: 1.5rem;
+        font-size: 1.90rem;
         line-height: 2.5rem;
         width: 8%;
     }
@@ -168,11 +174,14 @@ iframe{
         margin-bottom: 8rem;
     }
     button:hover{
-        background-color: #82815B;
-        color: #fff8f0;
+        background-color: #919b71;
+        color: #ecebd7;
     }
     body {
         overflow-x: hidden;
+    }
+    #coin{
+        width: 40%;
     }
 }
 
@@ -195,14 +204,14 @@ iframe{
         justify-content: center;
     }
     p{
-        font-size: 1.8rem/* 36px */;
+        font-size: 1.90rem/* 36px */;
         line-height: 0.5rem/* 40px */;
-        color: #82815B;
+        color: #919b71;
         font-weight: 400;
         text-align: center;   
     }
     span{
-        font-size: 1.5rem;
+        font-size: 1.90rem;
         line-height: 2.5rem;
     }
     #img-rosa-one{
@@ -226,8 +235,8 @@ iframe{
         margin-bottom: 8rem;
     }
     button:hover{
-        background-color: #82815B;
-        color: #fff8f0;
+        background-color: #919b71;
+        color: #ecebd7;
     }
     .second-size{
         font-size: 3rem/* 60px */;
@@ -236,11 +245,14 @@ iframe{
     body {
         overflow-x: hidden;
     }
+    #coin{
+        width: 40%;
+    }
 
 }
 @media (max-width: 768px) {
     button {
-        width: 50%;
+        width: 70%;
     }
     .space-title{
         margin-bottom: 8rem;
@@ -264,14 +276,14 @@ iframe{
         justify-content: center;
     }
     p{
-        font-size: 1.5rem/* 36px */;
+        font-size: 1.90rem/* 36px */;
         line-height: 0.5rem/* 40px */;
-        color: #82815B;
+        color: #919b71;
         font-weight: 400;
         text-align: center;   
     }
     span{
-        font-size: 1.5rem;
+        font-size: 1.90rem;
         line-height: 2.5rem;
         width: 8%;
     }
@@ -290,7 +302,7 @@ iframe{
         width: auto;
     }
     .ftr{
-        font-size: 15px;
+        font-size: 20px;
     }
     .column {
         width: 90%;
@@ -299,10 +311,13 @@ iframe{
         margin-bottom: 8rem;
     }
     button:hover{
-        background-color: #82815B;
-        color: #fff8f0;
+        background-color: #919b71;
+        color: #ecebd7;
     }
     body {
         overflow-x: hidden;
+    }
+    #coin{
+        width: 40%;
     }
 }
