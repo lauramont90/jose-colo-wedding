@@ -261,7 +261,7 @@ iframe{
 @media (max-width: 375px) {
     .title-size {
         text-align: center;
-        font-size: 4rem;
+   
     }
     
     .img-rose{
@@ -283,9 +283,10 @@ iframe{
         text-align: center;   
     }
     span{
-        font-size: 1.90rem;
+        font-size: 1.5rem;
         line-height: 2.5rem;
         width: 8%;
+        text-align: center;
     }
     #img-rosa-one{
         width: 50%; /* Establece el ancho al 100% del contenedor */
@@ -319,6 +320,9 @@ iframe{
     }
     #coin{
         width: 40%;
+    }
+    h1{
+        font-size: 10px;
     }
 }
 
